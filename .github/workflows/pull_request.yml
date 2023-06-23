@@ -1,5 +1,7 @@
 name: Pull request
 
+on: push
+
 jobs:
   build_and_unit_test:
     name: 'Tests unitaires'
